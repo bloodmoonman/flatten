@@ -18,10 +18,5 @@ def deep_reverse(mylist):
     return result
 
 
-print(deep_reverse([[1, 2], [3, 4], [[8]], [5, 6, 7]]))
 
-a = [[1, 2], [3, 4], [[8]], [5, 6, 7]]
-
-b = a[::-1]
-print(b)
 
