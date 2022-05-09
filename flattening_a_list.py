@@ -1,3 +1,4 @@
+#flattening a nested lists
 def flatten(items, seqtypes=(list, tuple)):
     for i, x in enumerate(items):
         while i < len(items) and isinstance(items[i], seqtypes):
@@ -6,7 +7,7 @@ def flatten(items, seqtypes=(list, tuple)):
 
 print(flatten([[1,'a',['cat'],2],[[[3]],'dog'],4,5]))
 
-
+#reversing a list
 def deep_reverse(mylist):
     result = []
     for e in mylist:
@@ -19,4 +20,4 @@ def deep_reverse(mylist):
 
 
 
-
+#patika.dev projects
